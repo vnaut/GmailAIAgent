@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open Email in Gmail</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5 text-center">
+    <h1>View Email in Gmail</h1>
+    <p>Click the button below to open the email directly in your Gmail account.</p>
+    <a href="{{ gmail_link }}" target="_blank" class="btn btn-primary btn-lg">Open in Gmail</a>
+    <br><br>
+    <a href="{{ url_for('folders') }}" class="btn btn-secondary">Back to Folders</a>
+  </div>
+  
+  <!-- Bootstrap Bundle JS (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
